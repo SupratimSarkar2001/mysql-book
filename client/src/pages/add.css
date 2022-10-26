@@ -1,0 +1,34 @@
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button{
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(204, 204, 243);
+    color: rgb(139, 139, 234);
+}
+.button:hover{
+    background-color:rgb(139, 139, 234);
+    color: white;
+}
+.Link{
+    text-decoration: none;
+    color:rgb(2, 160, 68);
+}
+.Link:hover{
+    border:1px dashed rgb(2, 160, 68);
+    padding: 5px 5px 5px 5px;
+}
+input {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+}

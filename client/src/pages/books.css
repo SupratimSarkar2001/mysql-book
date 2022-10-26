@@ -1,0 +1,129 @@
+
+.banner {
+  /* width: 100%; */
+  height: 250px;
+  border-radius: 10px;
+  background: url("https://img.freepik.com/premium-photo/banner-with-books-stack-eyeglasses-isolated-white-background-conducting-research-data-search-concept-copyspace-high-quality-photo_361816-4620.jpg?w=2000")
+    no-repeat  center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center; 
+  padding: 0px 10px;
+}
+.bannerContent {
+  padding: 8px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bannerContent h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(2, 160, 68);
+}
+
+.bannerContent p {
+  font-size: 14px;
+  width: 200px;
+  color:rgb(2, 160, 68);
+  margin: 5px 0;
+}
+
+.bannerContent p span {
+  color: dimgray;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.bannerContent a {
+  background: dimgray;
+  padding: 5px 15px;
+  border-radius: 100vw;
+  color: #faf9fb;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.bannerContent a:hover {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+  transition: 0.5s;
+  background: dimgray;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 400;
+  color: dimgray;
+}
+.books {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.books img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.books h2{
+    word-wrap: break-word;
+    max-width: 20ch;
+    font-weight: 400;
+    color: rgb(2, 160, 68);
+}
+.books h4{
+    margin-top: -15px;
+    color: dimgray;
+    font-weight: 400;
+}
+.books p{
+    font-size: 13px;
+    margin-top: -15px;
+}
+.books span{
+    align-items: center;
+    margin-right: 10px;
+    padding-top: 2px;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap:5px
+}
+.delete {
+    border: 1px solid rgb(245, 191, 191);
+    color: rgb(242, 100, 100);
+  }
+.update {
+    border: 1px solid rgb(204, 204, 243);
+    color: rgb(139, 139, 234);
+    text-decoration: none;
+  }
+  button {
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+  }
+  .addHome{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(2, 160, 68);
+    color: white;
+    font-weight: bold;
+  }
